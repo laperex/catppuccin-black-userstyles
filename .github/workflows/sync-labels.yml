@@ -15,6 +15,6 @@ jobs:
     steps:
       - name: Sync labels
         uses: r7kamura/github-label-sync-action@v0
-        if: ${{ github.repository == 'catppuccin/userstyles' }}
+        if: ${{ github.repository == 'laperex/catppuccin-black-userstyles' }}
         with:
           allow_added_labels: "true"

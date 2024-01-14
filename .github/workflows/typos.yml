@@ -26,5 +26,5 @@ jobs:
 
       # We always want this check to pass on branch 'main' but continue to fail on PRs
       - name: Pass on 'main' branch
-        if: ${{ github.repository == 'catppuccin/userstyles' && github.ref == 'refs/heads/main' }}
+        if: ${{ github.repository == 'laperex/catppuccin-black-userstyles' && github.ref == 'refs/heads/main' }}
         run: "exit 0"

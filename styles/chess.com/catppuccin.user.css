@@ -1,10 +1,10 @@
 /* ==UserStyle==
 @name Chess.com Catppuccin
-@namespace github.com/catppuccin/userstyles/styles/chess.com
-@homepageURL https://github.com/catppuccin/userstyles/tree/main/styles/chess.com
+@namespace github.com/laperex/catppuccin-black-userstyles/styles/chess.com
+@homepageURL https://github.com/laperex/catppuccin-black-userstyles/tree/main/styles/chess.com
 @version 0.1.3
-@updateURL https://github.com/catppuccin/userstyles/raw/main/styles/chess.com/catppuccin.user.css
-@supportURL https://github.com/catppuccin/userstyles/issues?q=is%3Aopen+is%3Aissue+label%3Achess.com
+@updateURL https://github.com/laperex/catppuccin-black-userstyles/raw/main/styles/chess.com/catppuccin.user.css
+@supportURL https://github.com/laperex/catppuccin-black-userstyles/issues?q=is%3Aopen+is%3Aissue+label%3Achess.com
 @description Soothing pastel theme for Chess.com
 @author Catppuccin
 @license MIT
@@ -63,7 +63,7 @@
     @accent-color: @catppuccin[@@lookup][@@accent];
 
     #piece(@piece) {
-      @url: url("https://media.githubusercontent.com/media/catppuccin/userstyles/main/styles/chess.com/assets/@{lookup}/@{piece}.png");
+      @url: url("https://media.githubusercontent.com/media/laperex/catppuccin-black-userstyles/main/styles/chess.com/assets/@{lookup}/@{piece}.png");
     }
 
     @bb: #piece("b/bb") [];
@@ -345,11 +345,11 @@
 
     /* Board */
     .board {
-      background-image: url("https://media.githubusercontent.com/media/catppuccin/userstyles/main/styles/chess.com/assets/@{lookup}/@{accent}.png") !important;
+      background-image: url("https://media.githubusercontent.com/media/laperex/catppuccin-black-userstyles/main/styles/chess.com/assets/@{lookup}/@{accent}.png") !important;
     }
 
     .game-preview-legacy-component {
-      background-image: url("https://media.githubusercontent.com/media/catppuccin/userstyles/main/styles/chess.com/assets/@{lookup}/@{accent}.png") !important;
+      background-image: url("https://media.githubusercontent.com/media/laperex/catppuccin-black-userstyles/main/styles/chess.com/assets/@{lookup}/@{accent}.png") !important;
     }
 
     /* Black Pieces */

@@ -22,7 +22,7 @@ jobs:
           deno-version: v1.x
 
       - name: Sync maintainers
-        if: ${{ github.repository == 'catppuccin/userstyles' && github.ref == 'refs/heads/main' }}
+        if: ${{ github.repository == 'laperex/catppuccin-black-userstyles' && github.ref == 'refs/heads/main' }}
         run: deno task ci:sync-maintainers
         env:
           GITHUB_TOKEN: ${{ secrets.USERSTYLES_TOKEN }}

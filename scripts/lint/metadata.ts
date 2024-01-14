@@ -70,7 +70,7 @@ export const verifyMetadata = async (
 };
 
 const assertions = async (repo: string) => {
-  const prefix = "https://github.com/catppuccin/userstyles";
+  const prefix = "https://github.com/laperex/catppuccin-black-userstyles";
 
   const { userstyles } = await getUserstylesData().catch((err) => {
     console.error(err);
@@ -83,7 +83,7 @@ const assertions = async (repo: string) => {
         ? (userstyles[repo].name as string[]).join("/")
         : userstyles[repo].name
     } Catppuccin`,
-    namespace: `github.com/catppuccin/userstyles/styles/${repo}`,
+    namespace: `github.com/laperex/catppuccin-black-userstyles/styles/${repo}`,
     author: "Catppuccin",
     license: "MIT",
     preprocessor: "less",

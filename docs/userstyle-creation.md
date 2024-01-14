@@ -18,7 +18,7 @@ and makes it easier for all people to request what they want without needing to
 learn what "Stylus" exactly is.
 
 **If you have already created a userstyle, please raise a
-[Pull Request](https://github.com/catppuccin/userstyles/compare)!**
+[Pull Request](https://github.com/laperex/catppuccin-black-userstyles/compare)!**
 
 &nbsp;
 
@@ -47,7 +47,7 @@ To create a userstyle, follow the instructions listed below:
    - Use [catwalk](https://github.com/catppuccin/toolbox#catwalk) to generate a
      composite or grid image of all the flavors. **This must be saved as
      `catwalk.webp`.**
-8. Raise a [Pull Request](https://github.com/catppuccin/userstyles/compare),
+8. Raise a [Pull Request](https://github.com/laperex/catppuccin-black-userstyles/compare),
    making sure to read and fill out the template properly.
 
 &nbsp;
