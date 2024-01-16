@@ -16,6 +16,10 @@
 
 @-moz-document regexp("^https?://(www\\.|images\\.)?google\\..*")
 {
+	* {
+	    border-radius: 0 !important;
+    }
+
   #catppuccin(@lookup) {
     @flamingo: @catppuccin[@@lookup][@flamingo];
     @pink: @catppuccin[@@lookup][@pink];

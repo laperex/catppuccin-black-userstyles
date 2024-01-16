@@ -18,6 +18,10 @@
 @var text scrollbar_width "Scrollbar width" 8px
 ==/UserStyle== */
 @-moz-document regexp('https?:\\/\\/(?!gaming\\.)(?!consent\\.)(?!vr\\.)(?!music\\.)(?!tv\\.)(?!artists\\.)(?!studio\\.).*youtube(?!kids\\.).*\\.com\\/(?!premium|howyoutubeworks).*$') {
+	* {
+		border-radius: 0 !important;
+	}
+
   /* youtube.com */
   :root[dark] {
     #catppuccin(@darkFlavor, @accentColor);
