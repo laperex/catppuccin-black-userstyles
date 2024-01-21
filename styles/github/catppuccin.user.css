@@ -24,6 +24,14 @@
 }
 
 @-moz-document regexp("https:\/\/(gist\.)*github\.com(?!((\/.+?\/.+?\/commit\/[A-Fa-f0-9]+\.(patch|diff)$)|\/home$|\/features($|\/.*)|\/marketplace($|\/.*)|\/organizations\/plan)).*$") {
+	* {
+		border-radius: 0;
+	}
+	
+	.rounded-3 {
+		border-radius: 0 !important
+	}
+
   [data-color-mode="light"],
   [data-color-mode="auto"] > .theme-light {
     #catppuccin(@lightFlavor, @accentColor);

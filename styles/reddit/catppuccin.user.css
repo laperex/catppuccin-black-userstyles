@@ -16,6 +16,10 @@
 ==/UserStyle== */
 
 @-moz-document domain("reddit.com") {
+	* {
+		border-radius: 0 !important;
+	}
+	
   :root:not(.theme-dark) .theme-rpl,
   :root:not(.theme-dark).theme-rpl,
   :root:not(.theme-dark) .theme-beta,
