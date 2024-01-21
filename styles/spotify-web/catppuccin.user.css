@@ -19,6 +19,9 @@
 /* Apply Theme To Site
  * For help with URL rules, please see https://github.com/openstyles/stylus/wiki/Writing-styles#valid--moz-document-rules */
 @-moz-document domain('open.spotify.com') {
+	* {
+		border-radius: 0 !important;
+	}
   //  Palette Lookup Table
   /* prettier-ignore */
   @catppuccin: {

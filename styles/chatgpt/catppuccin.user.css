@@ -16,6 +16,10 @@
 ==/UserStyle== */
 @-moz-document domain("chat.openai.com") {
   @import url("https://unpkg.com/@catppuccin/highlightjs@0.1.2/css/catppuccin.variables.css");
+  
+	* {
+		border-radius: 0 !important;
+	}
 
   .light body,
   .light html {
