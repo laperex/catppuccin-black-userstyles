@@ -25,7 +25,7 @@
 
 @-moz-document regexp("https:\/\/(gist\.)*github\.com(?!((\/.+?\/.+?\/commit\/[A-Fa-f0-9]+\.(patch|diff)$)|\/home$|\/features($|\/.*)|\/marketplace($|\/.*)|\/organizations\/plan)).*$") {
 	* {
-		border-radius: 0;
+		border-radius: 0 !important;
 	}
 	
 	.rounded-3 {
